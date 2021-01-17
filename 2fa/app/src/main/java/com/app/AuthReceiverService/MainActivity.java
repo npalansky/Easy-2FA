@@ -1,7 +1,8 @@
-package com.example.a2fa;
+package com.app.AuthReceiverService;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {

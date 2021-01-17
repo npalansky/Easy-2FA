@@ -1,4 +1,4 @@
-package com.example.a2fa;
+package com.app.AuthReceiverService;
 
 import org.junit.Test;
 
