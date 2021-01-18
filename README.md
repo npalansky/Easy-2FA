@@ -1,4 +1,4 @@
-Easy 2FA
+#Easy 2FA
 
 This program makes it more convinient to use Two Factor Authentication without disrupting your workflow by automatically copying the codes to your clipboard without compimising on security. 
  
