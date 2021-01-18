@@ -1,6 +1,6 @@
 Easy 2FA
 
-This program makes it more convinient to use 2FA without disrupting your workflow by automatically copying the codes to your clipboard without compimising on security. 
+This program makes it more convinient to use Two Factor Authentication without disrupting your workflow by automatically copying the codes to your clipboard without compimising on security. 
  
 It consists of an Android app which monitors SMS in order to recognize security codes.  When a code is received, it is automatically copied to the clipboard.  
 

@@ -1,4 +1,4 @@
-Easy 2FA makes it easier for people to use 2FA without disrupting their workflow by automatically copying the codes to your clipboard. Copyright (C) 2021 Noah Palansky
+This program makes it more convinient to use Two Factor Authentication without disrupting your workflow by automatically copying the codes to your clipboard without compimising on security. Copyright (C) 2021 Noah Palansky
 
 
 This program is free software: you can redistribute it and/or modify
