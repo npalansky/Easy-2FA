@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA61C14F25B688A600F409FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C14E25B688A600F409FA /* AppDelegate.swift */; };
+		FA61C15125B688A600F409FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C15025B688A600F409FA /* ContentView.swift */; };
+		FA61C15325B688A900F409FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61C15225B688A900F409FA /* Assets.xcassets */; };
+		FA61C15625B688A900F409FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61C15525B688A900F409FA /* Preview Assets.xcassets */; };
+		FA61C15925B688A900F409FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61C15725B688A900F409FA /* Main.storyboard */; };
+		FA61C16525B688AA00F409FA /* Easy_2FA_Client_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C16425B688AA00F409FA /* Easy_2FA_Client_MacTests.swift */; };
+		FA61C17025B688AA00F409FA /* Easy_2FA_Client_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C16F25B688AA00F409FA /* Easy_2FA_Client_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA61C16125B688AA00F409FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61C14325B688A600F409FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61C14A25B688A600F409FA;
+			remoteInfo = "Easy-2FA-Client-Mac";
+		};
+		FA61C16C25B688AA00F409FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61C14325B688A600F409FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61C14A25B688A600F409FA;
+			remoteInfo = "Easy-2FA-Client-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA61C14B25B688A600F409FA /* Easy-2FA-Client-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy-2FA-Client-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61C14E25B688A600F409FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA61C15025B688A600F409FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA61C15225B688A900F409FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA61C15525B688A900F409FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA61C15825B688A900F409FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA61C15A25B688A900F409FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61C15B25B688A900F409FA /* Easy_2FA_Client_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Easy_2FA_Client_Mac.entitlements; sourceTree = "<group>"; };
+		FA61C16025B688AA00F409FA /* Easy-2FA-Client-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy-2FA-Client-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61C16425B688AA00F409FA /* Easy_2FA_Client_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_2FA_Client_MacTests.swift; sourceTree = "<group>"; };
+		FA61C16625B688AA00F409FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61C16B25B688AA00F409FA /* Easy-2FA-Client-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy-2FA-Client-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61C16F25B688AA00F409FA /* Easy_2FA_Client_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_2FA_Client_MacUITests.swift; sourceTree = "<group>"; };
+		FA61C17125B688AA00F409FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA61C14825B688A600F409FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C15D25B688AA00F409FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C16825B688AA00F409FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA61C14225B688A600F409FA = {
+			isa = PBXGroup;
+			children = (
+				FA61C14D25B688A600F409FA /* Easy-2FA-Client-Mac */,
+				FA61C16325B688AA00F409FA /* Easy-2FA-Client-MacTests */,
+				FA61C16E25B688AA00F409FA /* Easy-2FA-Client-MacUITests */,
+				FA61C14C25B688A600F409FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA61C14C25B688A600F409FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA61C14B25B688A600F409FA /* Easy-2FA-Client-Mac.app */,
+				FA61C16025B688AA00F409FA /* Easy-2FA-Client-MacTests.xctest */,
+				FA61C16B25B688AA00F409FA /* Easy-2FA-Client-MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA61C14D25B688A600F409FA /* Easy-2FA-Client-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				FA61C14E25B688A600F409FA /* AppDelegate.swift */,
+				FA61C15025B688A600F409FA /* ContentView.swift */,
+				FA61C15225B688A900F409FA /* Assets.xcassets */,
+				FA61C15725B688A900F409FA /* Main.storyboard */,
+				FA61C15A25B688A900F409FA /* Info.plist */,
+				FA61C15B25B688A900F409FA /* Easy_2FA_Client_Mac.entitlements */,
+				FA61C15425B688A900F409FA /* Preview Content */,
+			);
+			path = "Easy-2FA-Client-Mac";
+			sourceTree = "<group>";
+		};
+		FA61C15425B688A900F409FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA61C15525B688A900F409FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA61C16325B688AA00F409FA /* Easy-2FA-Client-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61C16425B688AA00F409FA /* Easy_2FA_Client_MacTests.swift */,
+				FA61C16625B688AA00F409FA /* Info.plist */,
+			);
+			path = "Easy-2FA-Client-MacTests";
+			sourceTree = "<group>";
+		};
+		FA61C16E25B688AA00F409FA /* Easy-2FA-Client-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61C16F25B688AA00F409FA /* Easy_2FA_Client_MacUITests.swift */,
+				FA61C17125B688AA00F409FA /* Info.plist */,
+			);
+			path = "Easy-2FA-Client-MacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA61C14A25B688A600F409FA /* Easy-2FA-Client-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61C17425B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-Mac" */;
+			buildPhases = (
+				FA61C14725B688A600F409FA /* Sources */,
+				FA61C14825B688A600F409FA /* Frameworks */,
+				FA61C14925B688A600F409FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy-2FA-Client-Mac";
+			productName = "Easy-2FA-Client-Mac";
+			productReference = FA61C14B25B688A600F409FA /* Easy-2FA-Client-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA61C15F25B688AA00F409FA /* Easy-2FA-Client-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61C17725B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-MacTests" */;
+			buildPhases = (
+				FA61C15C25B688AA00F409FA /* Sources */,
+				FA61C15D25B688AA00F409FA /* Frameworks */,
+				FA61C15E25B688AA00F409FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61C16225B688AA00F409FA /* PBXTargetDependency */,
+			);
+			name = "Easy-2FA-Client-MacTests";
+			productName = "Easy-2FA-Client-MacTests";
+			productReference = FA61C16025B688AA00F409FA /* Easy-2FA-Client-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA61C16A25B688AA00F409FA /* Easy-2FA-Client-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61C17A25B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-MacUITests" */;
+			buildPhases = (
+				FA61C16725B688AA00F409FA /* Sources */,
+				FA61C16825B688AA00F409FA /* Frameworks */,
+				FA61C16925B688AA00F409FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61C16D25B688AA00F409FA /* PBXTargetDependency */,
+			);
+			name = "Easy-2FA-Client-MacUITests";
+			productName = "Easy-2FA-Client-MacUITests";
+			productReference = FA61C16B25B688AA00F409FA /* Easy-2FA-Client-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA61C14325B688A600F409FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Noah Palansky";
+				TargetAttributes = {
+					FA61C14A25B688A600F409FA = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FA61C15F25B688AA00F409FA = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FA61C14A25B688A600F409FA;
+					};
+					FA61C16A25B688AA00F409FA = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FA61C14A25B688A600F409FA;
+					};
+				};
+			};
+			buildConfigurationList = FA61C14625B688A600F409FA /* Build configuration list for PBXProject "Easy-2FA-Client-Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA61C14225B688A600F409FA;
+			productRefGroup = FA61C14C25B688A600F409FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA61C14A25B688A600F409FA /* Easy-2FA-Client-Mac */,
+				FA61C15F25B688AA00F409FA /* Easy-2FA-Client-MacTests */,
+				FA61C16A25B688AA00F409FA /* Easy-2FA-Client-MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA61C14925B688A600F409FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61C15925B688A900F409FA /* Main.storyboard in Resources */,
+				FA61C15625B688A900F409FA /* Preview Assets.xcassets in Resources */,
+				FA61C15325B688A900F409FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C15E25B688AA00F409FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C16925B688AA00F409FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA61C14725B688A600F409FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61C15125B688A600F409FA /* ContentView.swift in Sources */,
+				FA61C14F25B688A600F409FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C15C25B688AA00F409FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61C16525B688AA00F409FA /* Easy_2FA_Client_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61C16725B688AA00F409FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61C17025B688AA00F409FA /* Easy_2FA_Client_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA61C16225B688AA00F409FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61C14A25B688A600F409FA /* Easy-2FA-Client-Mac */;
+			targetProxy = FA61C16125B688AA00F409FA /* PBXContainerItemProxy */;
+		};
+		FA61C16D25B688AA00F409FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61C14A25B688A600F409FA /* Easy-2FA-Client-Mac */;
+			targetProxy = FA61C16C25B688AA00F409FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA61C15725B688A900F409FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA61C15825B688A900F409FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA61C17225B688AA00F409FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA61C17325B688AA00F409FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA61C17525B688AA00F409FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Easy-2FA-Client-Mac/Easy_2FA_Client_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Easy-2FA-Client-Mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA61C17625B688AA00F409FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Easy-2FA-Client-Mac/Easy_2FA_Client_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Easy-2FA-Client-Mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA61C17825B688AA00F409FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy-2FA-Client-Mac.app/Contents/MacOS/Easy-2FA-Client-Mac";
+			};
+			name = Debug;
+		};
+		FA61C17925B688AA00F409FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy-2FA-Client-Mac.app/Contents/MacOS/Easy-2FA-Client-Mac";
+			};
+			name = Release;
+		};
+		FA61C17B25B688AA00F409FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Easy-2FA-Client-Mac";
+			};
+			name = Debug;
+		};
+		FA61C17C25B688AA00F409FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Easy-2FA-Client-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Easy-2FA-Client-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Easy-2FA-Client-Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA61C14625B688A600F409FA /* Build configuration list for PBXProject "Easy-2FA-Client-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61C17225B688AA00F409FA /* Debug */,
+				FA61C17325B688AA00F409FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61C17425B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61C17525B688AA00F409FA /* Debug */,
+				FA61C17625B688AA00F409FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61C17725B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61C17825B688AA00F409FA /* Debug */,
+				FA61C17925B688AA00F409FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61C17A25B688AA00F409FA /* Build configuration list for PBXNativeTarget "Easy-2FA-Client-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61C17B25B688AA00F409FA /* Debug */,
+				FA61C17C25B688AA00F409FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA61C14325B688A600F409FA /* Project object */;
+}
