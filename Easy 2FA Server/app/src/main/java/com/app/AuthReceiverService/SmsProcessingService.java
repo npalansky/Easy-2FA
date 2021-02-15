@@ -27,7 +27,6 @@ public class SmsProcessingService extends Service {
 
     @Override
     public void onCreate() {
-    //TODO: show notification or die
         IntentFilter filter = new IntentFilter();
         filter.addAction(SMS_RECEIVED);
         mReceiver = new SmsBroadcastReceiver();

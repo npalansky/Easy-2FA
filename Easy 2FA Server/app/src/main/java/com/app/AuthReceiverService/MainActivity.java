@@ -2,8 +2,10 @@ package com.app.AuthReceiverService;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.inputmethod.InputMethodManager;
 
 public class MainActivity extends AppCompatActivity {
     private static final String RESTART_SERVICE = "restartservice";
