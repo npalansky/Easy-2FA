@@ -37,7 +37,7 @@ public class PasteButtonReceiver extends AccessibilityService {
 
     @Override
     protected boolean onKeyEvent(KeyEvent event) {
-        if (event.getKeyCode() == VOLUME_UP && event.getAction() == KeyEvent.ACTION_DOWN && getSecondsSinceLastCode() < PASTE_ACTIVE_SECONDS) {
+        if (event.getKeyCode() == VOLUME_UP && event.getAction() == KeyEvent.ACTION_DOWN && this.nodeInfo != null && getSecondsSinceLastCode() < PASTE_ACTIVE_SECONDS) {
             //Paste in the text
             this.nodeInfo.refresh();
             this.nodeInfo.performAction(AccessibilityNodeInfo.ACTION_PASTE);
