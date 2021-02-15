@@ -41,7 +41,7 @@ public class PasteButtonReceiver extends AccessibilityService {
             //Paste in the text
             this.nodeInfo.refresh();
             this.nodeInfo.performAction(AccessibilityNodeInfo.ACTION_PASTE);
-
+            
             //Hide the keyboard
             this.nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLEAR_FOCUS);
 
