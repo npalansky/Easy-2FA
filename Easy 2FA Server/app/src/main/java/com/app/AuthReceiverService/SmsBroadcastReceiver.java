@@ -15,6 +15,7 @@ import java.util.List;
 
 public class SmsBroadcastReceiver extends android.content.BroadcastReceiver {
     private static final String SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
+    public static long LAST_CODE_TIMESTAMP_MILLIS = -1;
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -27,7 +28,9 @@ public class SmsBroadcastReceiver extends android.content.BroadcastReceiver {
                 if (parsedMessage != null) {
                     ClipboardManager clipboard = (ClipboardManager) context.getSystemService(context.CLIPBOARD_SERVICE);
                     ClipData clip = ClipData.newPlainText("label", parsedMessage);
-                    clipboard.setPrimaryClip(clip);
+                    clipboard.setPrimaryClip(clip); //Set to clipboard for use by other apps
+                    this.LAST_CODE_TIMESTAMP_MILLIS = System.currentTimeMillis();
+                    Toast.makeText(context, "Press Volume Up to paste code", Toast.LENGTH_SHORT).show();
                 }
             }
         }
@@ -49,7 +52,6 @@ public class SmsBroadcastReceiver extends android.content.BroadcastReceiver {
             }
             String sender = messages[0].getOriginatingAddress();
             String message = sb.toString();
-
             return message;
         }
         return null;
